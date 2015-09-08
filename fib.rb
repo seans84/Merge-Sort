@@ -1,13 +1,18 @@
 def fibs(n)
   first = 0
   second = 1
-  added = 0 
-  (n-2).times do
-    added = first + second
-    first = second
-    second = added
+  fibonacci_array = []
+  n.times do |i|
+    fibonacci_array[i] = first
+    first, second = second, first+second
   end
-  puts "total: #{added}"
+  fibonacci_array
+end
+  
+print fibs(2)
+
+def fibs_rec(n)
+  
 end
 
-fibs(13)
+print fibs_rec(3)
