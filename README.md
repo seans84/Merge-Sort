@@ -1,2 +1,2 @@
 # Merge-Sort
-Fibonacci sequences done recursively and a merge sort done recursively.
+Fibonacci sequences done recursively and a merge sort utilizing binary search done recursively.
